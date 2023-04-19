@@ -7,8 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
-      animation: {
-        'spin-slow': 'spin 3s linear infinite',
+      animation:{
+        transIn:'inToIt 1s ease-in-out 1',
+        transOut:'outOfIt 1s ease-in-out forwards 1',
+      },
+      keyframes: {
+        inToIt: {
+          '0%': { transform: 'translateY(-120%)' },
+          '100%': { transform: 'translateY(0%)' },
+        },
+        outOfIt: {
+          '0%': { transform: 'translateY(0%)' },
+          '100%': { transform: 'translateY(-120%)' },
+        },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
