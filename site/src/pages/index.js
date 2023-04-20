@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import {Header} from 'src/pages/api/HeaderFooter.js'
-import {TestA} from 'src/pages/api/Section1.js'
-import {TestB} from 'src/pages/api/Section2.js'
-import {TestC} from 'src/pages/api/Section3.js'
+import {SectionA} from 'src/pages/api/Section1.js'
+import {SectionB} from 'src/pages/api/Section2.js'
+import {SectionC} from 'src/pages/api/Section3.js'
 import {TestD} from 'src/pages/api/Section4.js'
 import {TestE} from 'src/pages/api/Section5.js'
 import {TestF} from 'src/pages/api/Section6.js'
@@ -17,17 +17,26 @@ import {Footer} from 'src/pages/api/HeaderFooter.js'
 
 const inter = Inter({ subsets: ['latin'] })
 
+function TemplateButtonaaaaaa({children}){
+  return(
+      <div>
+        <button class=" border-4 border-red-500 hover:border-red-950 rounded-xl 
+        w-48 hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
+        active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
+      </div>
+  )
+}
 
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Header/>
 
+      <SectionC/>
   {/* 
-      <TestA/>
-      <TestB/>
-      <TestC/>
+      <Header/>
+      <SectionA/>
+      <SectionB/>
       <TestD/>
       <TestE/>
       <TestF/>
