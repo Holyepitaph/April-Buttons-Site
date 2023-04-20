@@ -42,7 +42,7 @@ function ButtonSectionTwoSecond({children}){
         <div>
             <button class=" border-4 border-red-500 hover:border-red-950 rounded-xl 
             w-11/12 h-48 hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-            active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
+            active:translate-y-0.5 active:bg-slate-300 active:border-red-700 my-3.5">{children}</button>
         </div>
     )
 }
@@ -61,7 +61,7 @@ export function SectionB(){
             <ParagraphB/>
             <Links/>
             <ButtonSectionTwoFirst>Testing</ButtonSectionTwoFirst>
-            <div class="grid grid-cols-2 place-content-evenly w-full ml-1">
+            <div class="grid grid-cols-2 place-content-evenly w-full ml-1 my-3.5">
                 <ButtonSectionTwoSecond>First</ButtonSectionTwoSecond>
                 <ButtonSectionTwoSecond>Second</ButtonSectionTwoSecond>
                 <ButtonSectionTwoSecond>Third</ButtonSectionTwoSecond>

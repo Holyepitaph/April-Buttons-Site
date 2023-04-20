@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 function NavIn(){
     return(
-    <ul id="nav" class="flex flex-col absolute top-10 left-0 justify-between items-center h-1/2 w-full animate-transIn" >
+    <ul id="nav" class="z-50 bg-white flex flex-col absolute top-10 left-0 justify-between items-center h-1/2 w-full animate-transIn" >
         <li class="border-t-4 w-full center text-center">Start</li>
         <li class="border-t-4 w-full center text-center">Search</li>
         <li class="border-t-4 w-full center text-center">Icons</li>
@@ -16,7 +16,7 @@ function NavIn(){
 
 function NavOut(){
     return(
-    <ul id="nav" class="flex flex-col absolute top-10 left-0 justify-between items-center h-1/2 w-full animate-transOut" >
+    <ul id="nav" class="z-50 bg-white flex flex-col absolute top-10 left-0 justify-between items-center h-1/2 w-full animate-transOut" >
         <li class="border-t-4 w-full center text-center">Start</li>
         <li class="border-t-4 w-full center text-center">Search</li>
         <li class="border-t-4 w-full center text-center">Icons</li>

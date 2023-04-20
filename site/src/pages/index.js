@@ -4,8 +4,8 @@ import {Header} from 'src/pages/api/HeaderFooter.js'
 import {SectionA} from 'src/pages/api/Section1.js'
 import {SectionB} from 'src/pages/api/Section2.js'
 import {SectionC} from 'src/pages/api/Section3.js'
-import {TestD} from 'src/pages/api/Section4.js'
-import {TestE} from 'src/pages/api/Section5.js'
+import {SectionD} from 'src/pages/api/Section4.js'
+import {SectionE} from 'src/pages/api/Section5.js'
 import {TestF} from 'src/pages/api/Section6.js'
 import {TestG} from 'src/pages/api/Section7.js'
 import {TestH} from 'src/pages/api/Section8.js'
@@ -32,13 +32,15 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
-      <SectionC/>
+      <SectionE/>
   {/* 
-      <Header/>
+           <Header/>
       <SectionA/>
       <SectionB/>
-      <TestD/>
-      <TestE/>
+      <SectionC/>
+
+      <SectionD/>
+      
       <TestF/>
       <TestG/>
       <TestH/>
