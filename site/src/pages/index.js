@@ -8,9 +8,9 @@ import {SectionD} from 'src/pages/api/Section4.js'
 import {SectionE} from 'src/pages/api/Section5.js'
 import {SectionF} from 'src/pages/api/Section6.js'
 import {SectionG} from 'src/pages/api/Section7.js'
-import {TestH} from 'src/pages/api/Section8.js'
-import {TestI} from 'src/pages/api/Section9.js'
-import {TestJ} from 'src/pages/api/Section10.js'
+import {SectionH} from 'src/pages/api/Section8.js'
+import {SectionI} from 'src/pages/api/Section9.js'
+import {SectionJ} from 'src/pages/api/Section10.js'
 import {Footer} from 'src/pages/api/HeaderFooter.js'
 
 
@@ -31,22 +31,18 @@ function TemplateButtonaaaaaa({children}){
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-<SectionG/>
-  {/* 
-           <Header/>
+      <Header/>
       <SectionA/>
       <SectionB/>
       <SectionC/>
-
       <SectionD/>
       <SectionE/>
-      
       <SectionF/>
-      <TestH/>
-      <TestI/>
-      <TestJ/>
-      <Footer/>*/}
+      <SectionG/>
+      <SectionH/>
+      <SectionI/>
+      <SectionJ/>
+      <Footer/>
     </main>
   )
 }

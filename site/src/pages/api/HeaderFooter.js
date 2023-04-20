@@ -45,8 +45,52 @@ export function Header(){
     );
 }
 
+function ParagraphFooter(){
+    return(
+        <div>
+            <img src="" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
+            <h2 class="my-3.5 text-lg font-bold">Go Make Something Awesome</h2>
+            <p class="my-3.5">Font Awesome is the internet's icon library and toolkit used by millions
+             of designers, developers, and content creators.</p>
+            <p class="my-3.5">Made with and in Bentonville, Boston, Chicago, Grand Rapids, Joplin, Kansas City, Seattle,
+             Tampa, and Vergennes.</p>        
+        </div>
+    )
+}
+
+function ListFooter(){
+    return(
+        <div class="flex flex-row justify-between my-3.5">
+            <ul>
+                <li class="font-bold">Project</li>
+                <li>Download</li>
+                <li>Changelog</li>
+                <li>Commission Icons</li>
+                <li>All Versions</li>
+            </ul>
+            <ul>
+                <li class="font-bold">Community</li>
+                <li>GitHub</li>
+                <li>Icon Requests</li>
+                <li>Twitter</li>
+                <li>Shirts + Stuff</li>
+            </ul>
+            <ul>
+                <li class="font-bold">Help</li>
+                <li>Support</li>
+                <li>Troubleshooting</li>
+                <li>Contact Us</li>
+                <li>Status</li>
+            </ul>
+        </div>
+    )
+}
+
 export function Footer(){
     return(
-        <div>Footer Test</div>
+        <div>
+            <ParagraphFooter/>
+            <ListFooter/>
+        </div>
     );
 }

@@ -43,7 +43,7 @@ function ButtonThirdSectionSix({children}){
 
 function ButtonFourthSectionSix({children}){
     return(
-        <div class="w-[49.5%] h-56">
+        <div class="w-[49%] h-56">
         <button class="flex flex-col items-center justify-center border-4 border-red-500 hover:border-red-950 rounded-xl 
         w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
@@ -53,7 +53,7 @@ function ButtonFourthSectionSix({children}){
 
 function ButtonFifthSectionSix({children}){
     return(
-        <div class="w-[49.5%] h-56">
+        <div class="w-[49%] h-56">
         <button class="flex flex-col items-center justify-center border-4 border-red-500 hover:border-red-950 rounded-xl 
         w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
