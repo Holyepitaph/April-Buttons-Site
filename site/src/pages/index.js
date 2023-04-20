@@ -6,8 +6,8 @@ import {SectionB} from 'src/pages/api/Section2.js'
 import {SectionC} from 'src/pages/api/Section3.js'
 import {SectionD} from 'src/pages/api/Section4.js'
 import {SectionE} from 'src/pages/api/Section5.js'
-import {TestF} from 'src/pages/api/Section6.js'
-import {TestG} from 'src/pages/api/Section7.js'
+import {SectionF} from 'src/pages/api/Section6.js'
+import {SectionG} from 'src/pages/api/Section7.js'
 import {TestH} from 'src/pages/api/Section8.js'
 import {TestI} from 'src/pages/api/Section9.js'
 import {TestJ} from 'src/pages/api/Section10.js'
@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
-      <SectionE/>
+<SectionG/>
   {/* 
            <Header/>
       <SectionA/>
@@ -40,9 +40,9 @@ export default function Home() {
       <SectionC/>
 
       <SectionD/>
+      <SectionE/>
       
-      <TestF/>
-      <TestG/>
+      <SectionF/>
       <TestH/>
       <TestI/>
       <TestJ/>
