@@ -1,9 +1,9 @@
 function ParagraphSection6(){
     return(
-        <div>
-            <h2>ICON DISCOVERY</h2>
-            <h1>These ARE the icons you're looking for.</h1>
-            <p>Have you ever squandered hours scanning the dank, skeezy corners of the internet
+        <div class="text-sm">
+            <h2 class="text-purple-700 font-bold">ICON DISCOVERY</h2>
+            <h1 class="text-2xl font-bold my-3.5">These ARE the icons you're looking for.</h1>
+            <p class="mb-3.5">Have you ever squandered hours scanning the dank, skeezy corners of the internet
              scrounging up the icons you need? Us too. That's why we re-engineered our icon search
               from the ground up with ease of icon findability in mind, so you can match your brand with
                the perfect look and feel.</p>
@@ -13,9 +13,9 @@ function ParagraphSection6(){
 
 function ButtonFirstSectionSix({children}){
     return(
-        <div>
-        <button class=" border-4 border-red-500 hover:border-red-950 rounded-xl 
-        w-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
+        <div class="h-11">
+        <button class=" border border-slate-500 hover:border-red-950 rounded-full 
+        w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
       </div>
     )
@@ -23,9 +23,9 @@ function ButtonFirstSectionSix({children}){
 
 function ButtonSecondSectionSix({children}){
     return(
-        <div class="w-2/6">
+        <div class="w-2/6 h-24">
         <button class=" border-4 border-red-500 hover:border-red-950 rounded-xl 
-        w-full h-16 hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
+        w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
       </div>
     )
@@ -33,7 +33,7 @@ function ButtonSecondSectionSix({children}){
 
 function ButtonThirdSectionSix({children}){
     return(
-        <div class="w-1/3 h-56">
+        <div class="w-1/3 h-72">
         <button class="flex flex-col items-center justify-center border-4 border-red-500 hover:border-red-950 rounded-xl 
         w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
@@ -43,7 +43,7 @@ function ButtonThirdSectionSix({children}){
 
 function ButtonFourthSectionSix({children}){
     return(
-        <div class="w-[49%] h-56">
+        <div class="w-[49%] h-72">
         <button class="flex flex-col items-center justify-center border-4 border-red-500 hover:border-red-950 rounded-xl 
         w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>

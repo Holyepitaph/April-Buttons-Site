@@ -1,8 +1,8 @@
 function ParagraphSectionOne(){
     return(
-        <div class="flex flex-col items-center w-full">
-        <h1 class="text-xl font-bold">Take the hassle out of icons in your website.</h1>
-        <h2 class="text-md">Font Awesome is the Internet's icon library and toolkit,
+    <div class="flex flex-col items-center w-full my-3.5">
+        <h1 class="text-4xl font-bold">Take the hassle out of icons in your <span class="text-amber-500">website.</span></h1>
+        <h2 class="text-md my-3.5"><b>Font Awesome</b> is the Internet's icon library and toolkit,
          used by millions of designers, developers, and content creators.</h2>
     </div>
     ) 
@@ -10,20 +10,20 @@ function ParagraphSectionOne(){
 
 function ButtonSectionOneFirst({children}){
     return(
-        <div>
-        <button class=" border-4 border-red-500 hover:border-red-950 rounded-xl 
-        w-48 hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-        active:translate-y-0.5 active:bg-slate-300 active:border-red-700 ">{children}</button>
+        <div class="w-full h-11 my-2">
+        <button class="text-sm border font-bold border-slate-500 hover:border-red-950 rounded-xl 
+        w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
+        active:translate-y-0.5 active:bg-slate-300 active:border-slate-700 ">{children}</button>
     </div>
     )
 }
 
 function ButtonSectionOneSecond({children}){
     return(
-        <div>
-        <button class=" border-4 border-red-500 hover:border-red-950 rounded-xl 
-        w-48 hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-        active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
+        <div class="w-full h-11 my-2">
+        <button class="text-sm border font-bold bg-amber-400 border-slate-500 hover:border-amber-950 rounded-xl 
+        w-full h-full hover:bg-amber-500 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
+        active:translate-y-0.5 active:bg-amber-500 active:border-amber-700">{children}</button>
     </div>
     )
 }
@@ -45,7 +45,7 @@ export function SectionA(){
     return(
         <div class="my-3.5">
             <ParagraphSectionOne/>    
-            <div class="flex flex-row w-full justify-between my-3.5">
+            <div class="flex flex-col w-full justify-between my-3.5">
                 <ButtonSectionOneFirst>Start for Free</ButtonSectionOneFirst>
                 <ButtonSectionOneSecond>Get More with Pro</ButtonSectionOneSecond>
             </div>

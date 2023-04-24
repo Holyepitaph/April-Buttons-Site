@@ -10,9 +10,9 @@ function ImageSectionTen(){
 
 function ParagraphOneSectionTen(){
     return(
-        <div>
-            <h2 class="text-lg my-3.5">ICON COMMISSIONS</h2>
-            <h1 class="text-xl font-bold my-3.5">Any Icon You Can Imagine.</h1>
+        <div class="text-sm">
+            <h2 class="text-purple-800 font-bold my-3.5">ICON COMMISSIONS</h2>
+            <h1 class="text-2xl font-bold my-3.5">Any Icon You Can Imagine.</h1>
             <p>Can't find the exact icon you need? Think of Font Awesome as your very own in-house
              icon magician. We'll design it for you — alakazam! — and add it to Font Awesome 6.</p>
         </div>
@@ -31,8 +31,8 @@ function ButtonOneSectionTen({children}){
 
   function ParagraphTwoSectionTen(){
     return(
-        <div>
-            <h2 class="text-lg my-3.5">UPGRADE TO FONT AWESOME PRO</h2>
+        <div class="text-sm">
+            <h2 class="my-3.5 font-bold">UPGRADE TO FONT AWESOME PRO</h2>
             <p>Font Awesome Pro gives you 26,107 icons in 68 categories across six styles + brands.
              Plus, Actual Human™ tech support, hosted Pro Kits, Pro npm, and more!</p>
         </div>
@@ -42,9 +42,9 @@ function ButtonOneSectionTen({children}){
 function ButtonTwoSectionTen({children}){
     return(
         <div class="w-full h-12 my-3.5">
-          <button class=" border-4 border-red-500 hover:border-red-950 rounded-xl 
-          w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
+          <button class="font-bold text-sm my-3.5 border hover:border-slate-400 rounded-xl 
+          w-full h-11 shadow-[0_5px_#000000] active:shadow-[0_3px_#000000]
+          active:translate-y-0.5 active:border-slate-400">{children}</button>
         </div>
     )
   }

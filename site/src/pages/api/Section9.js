@@ -10,9 +10,9 @@ function ImageSectionNine(){
 
 function ParagraphSectionNine(){
     return(
-        <div>
-            <h2 class="text-lg my-3.5">FUTUREPROOFED</h2>
-            <h1 class="text-xl font-bold my-3.5">We grow with you.</h1>
+        <div class="text-sm">
+            <h2 class="text-emerald-800 font-bold my-3.5">FUTUREPROOFED</h2>
+            <h1 class="text-2xl font-bold my-3.5">We grow with you.</h1>
             <p>Setting up your first project with Font Awesome is a breeze, and we keep pace as your
              needs change over time. Font Awesome works where, and how, you do. And when you're ready, Font
               Awesome Pro gives you more icons, styles, and developer and designer tools — which helps streamline
@@ -23,10 +23,10 @@ function ParagraphSectionNine(){
 
 function ButtonOneSectionNine({children}){
     return(
-        <div class="my-3.5">
-          <button class=" border-4 border-red-500 hover:border-red-950 rounded-xl 
-          w-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
+        <div class="my-3.5 h-11">
+          <button class="text-sm font-bold border bg-emerald-300 border-slate-500 hover:border-emerald-950 rounded-xl 
+          w-full h-full hover:bg-emerald-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
+          active:translate-y-0.5 active:bg-emerald-600 active:border-emerald-700">{children}</button>
         </div>
     )
   }

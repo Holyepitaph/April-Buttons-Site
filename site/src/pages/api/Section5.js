@@ -6,9 +6,9 @@ import Box from '@mui/material/Box';
 
 function ParagraphSectionFive(){
     return(
-        <div class="my-3.5 ">
-            <h2 class="my-3.5 text-lg">STYLING TOOLS</h2>
-            <h1 class="my-3.5 text-lg font-bold">Style your icons to your fa-heart's content.</h1>
+        <div class="my-3.5 text-sm">
+            <h2 class="my-3.5 text-blue-800 font-bold">STYLING TOOLS</h2>
+            <h1 class="my-3.5 text-2xl font-bold">Style your icons to your fa-heart's content.</h1>
             <p class="my-3.5">You know and WE know styling icons on the web can be a bit of a chore.
              That's why we fine-tuned our styling tools like a Swiss watch to make icons more
               malleable right out of the box. Easily size, place, style, and even animate any icon
@@ -20,16 +20,16 @@ function ParagraphSectionFive(){
 function ButtonSectionFive({children}){
     return(
         <div>
-        <button class=" border-4 bg-teal-200 border-teal-500 hover:border-teal-800 rounded-xl h-12 
-        w-full hover:bg-teal-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-        active:translate-y-0.5 active:bg-teal-300 active:border-teal-700 my-3.5">{children}</button>
+        <button class=" border bg-sky-400 border-slate-700 hover:border-sky-800 rounded-xl h-12 
+        w-full hover:bg-sky-700 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
+        active:translate-y-0.5 active:bg-sky-300 active:border-sky-800 my-3.5">{children}</button>
       </div>
     )
 }
 
 function GridSectionFive(){
     return(
-        <div class="grid grid-cols-2 place-items-center w-full ml-1 my-3.5">
+        <div class="grid grid-cols-2 underlined place-items-center w-full ml-1 my-3.5 underline font-bold text-sm">
             <div class="my-1">Thousands of Icons</div>
             <div class="my-1">Built-in Sizing</div>
             <div class="my-1">8 Styles</div>
@@ -90,20 +90,20 @@ function BasicTabsSectionFive() {
             <Tab label="Animate" {...a11yProps(4)} />
           </Tabs>
         </Box>
-        <TabPanel value={value} index={0}>
-          Item One
+        <TabPanel class="h-96" value={value} index={0}>
+          Icon
         </TabPanel>
-        <TabPanel value={value} index={1}>
-          Item Two
+        <TabPanel class="h-96" value={value} index={1}>
+          Style
         </TabPanel>
-        <TabPanel value={value} index={2}>
-          Item Three
+        <TabPanel class="h-96" value={value} index={2}>
+          Color
         </TabPanel>
-        <TabPanel value={value} index={3}>
-          Item Four
+        <TabPanel class="h-96" value={value} index={3}>
+          Size
         </TabPanel>
-        <TabPanel value={value} index={4}>
-          Item Five
+        <TabPanel class="h-96" value={value} index={4}>
+          Animate
         </TabPanel>
       </Box>
     );

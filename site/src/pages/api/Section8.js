@@ -8,9 +8,9 @@ function ImageSectionEight(){
 
 function ParagraphSectionEight(){
     return(
-        <div class="my-3.5">
-            <h2 class="text-lg my-3.5">THE RIGHT TOOL FOR THE JOB</h2>
-            <h1 class="text-xl font-bold my-3.5">No need to reinvent the wheel.</h1>
+        <div class="my-3.5 text-sm">
+            <h2 class="text-blue-800 my-3.5 font-bold">THE RIGHT TOOL FOR THE JOB</h2>
+            <h1 class="text-2xl font-bold my-3.5">No need to reinvent the wheel.</h1>
             <p>Whether you're working on a website, app, or project, we've got a set of tools
              that work how and where you do. So there's no need to hack your way through your next build.</p>
         </div>
@@ -19,59 +19,59 @@ function ParagraphSectionEight(){
 
 function SheetOneSectionEight(){
     return(
-        <div>
+        <div class="text-sm">
             <img src="" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
-            <h2 class="text-lg font-bold my-3.5">Great for Developers</h2>
+            <h2 class="font-bold my-3.5">Great for Developers</h2>
             <p>We've got frameworks and toolkits for the most popular plugins and packages that already
              work the way you expect.</p>
-            <button class="my-3.5 border-4 border-red-500 hover:border-red-950 rounded-xl 
-          w-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">JS Frameworks</button>
-            <button class="my-3.5 border-4 border-red-500 hover:border-red-950 rounded-xl 
-          w-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">Webfont & SVG Toolkits</button>
-            <button class="my-3.5 border-4 border-red-500 hover:border-red-950 rounded-xl 
-          w-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">Official APIs</button>
+            <button class="font-bold text-sm my-3.5 border hover:border-sky-300 rounded-xl 
+          w-full h-11 shadow-[0_5px_#999] active:shadow-[0_3px_rgb(125,211,252)]
+          active:translate-y-0.5 active:border-sky-300">JS Frameworks</button>
+            <button class="font-bold text-sm my-3.5 border hover:border-sky-300 rounded-xl 
+          w-full h-11 shadow-[0_5px_#999] active:shadow-[0_3px_rgb(125,211,252)]
+          active:translate-y-0.5 active:border-sky-300">Webfont & SVG Toolkits</button>
+            <button class="font-bold text-sm my-3.5 border hover:border-sky-300 rounded-xl 
+          w-full h-11 shadow-[0_5px_#999] active:shadow-[0_3px_rgb(125,211,252)]
+          active:translate-y-0.5 active:border-sky-300">Official APIs</button>
         </div>
     )
 }
 
 function SheetSecondSectionEight(){
     return(
-        <div>
+        <div class="text-sm">
             <img src="" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
-            <h2 class="my-3.5 text-lg font-bold">Great for Designers</h2>
+            <h2 class="my-3.5 font-bold">Great for Designers</h2>
             <p>Use your own designs alongside thousands of matching Font Awesome icons in each of six unique styles.</p>
-            <button class="my-3.5 border-4 border-red-500 hover:border-red-950 rounded-xl 
-          w-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">Text-to-Icon Ligatures</button>
-            <button class="my-3.5 border-4 border-red-500 hover:border-red-950 rounded-xl 
-          w-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">Custom Icon Upload</button>
-            <button class="my-3.5 border-4 border-red-500 hover:border-red-950 rounded-xl 
-          w-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">Pixel-Perfect Icons</button>
+            <button class="font-bold text-sm my-3.5 border hover:border-fuchsia-400 rounded-xl 
+          w-full h-11 shadow-[0_5px_#999] active:shadow-[0_3px_rgb(232,121,249)]
+          active:translate-y-0.5 active:border-fuchsia-400">Text-to-Icon Ligatures</button>
+            <button class="font-bold text-sm my-3.5 border hover:border-fuchsia-400 rounded-xl 
+          w-full h-11 shadow-[0_5px_#999] active:shadow-[0_3px_rgb(232,121,249)]
+          active:translate-y-0.5 active:border-fuchsia-400">Custom Icon Upload</button>
+            <button class="font-bold text-sm my-3.5 border hover:border-fuchsia-400 rounded-xl 
+          w-full h-11 shadow-[0_5px_#999] active:shadow-[0_3px_rgb(232,121,249)]
+          active:translate-y-0.5 active:border-fuchsia-400">Pixel-Perfect Icons</button>
         </div>
     )
 }
 
 function SheetThreeSectionEight(){
     return(
-        <div>
+        <div class="text-sm">
             <img src="" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
-            <h2 class="my-3.5 text-lg font-bold">Great for Content Creators</h2>
+            <h2 class="my-3.5 font-bold">Great for Content Creators</h2>
             <p>With oodles of free icons — including brands + social icons — our syntax is easy to use
              in authoring tools like WordPress and more.</p>
-            <button class="my-3.5 border-4 border-red-500 hover:border-red-950 rounded-xl 
-          w-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">Thousands of Unique Icons</button>
-            <button class="my-3.5 border-4 border-red-500 hover:border-red-950 rounded-xl 
-          w-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">Brand + Social Icons</button>
-            <button class="my-3.5 border-4 border-red-500 hover:border-red-950 rounded-xl 
-          w-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">Wordpress Shortcodes</button>
+            <button class="font-bold text-sm my-3.5 border hover:border-emerald-400 rounded-xl 
+          w-full h-11 shadow-[0_5px_#999] active:shadow-[0_3px_rgb(52,211,153)]
+          active:translate-y-0.5 active:border-emerald-400">Thousands of Unique Icons</button>
+            <button class="font-bold text-sm my-3.5 border hover:border-emerald-400 rounded-xl 
+          w-full h-11 shadow-[0_5px_#999] active:shadow-[0_3px_rgb(52,211,153)]
+          active:translate-y-0.5 active:border-emerald-400">Brand + Social Icons</button>
+            <button class="font-bold text-sm my-3.5 border hover:border-emerald-400 rounded-xl 
+          w-full h-11 shadow-[0_5px_#999] active:shadow-[0_3px_rgb(52,211,153)]
+          active:translate-y-0.5 active:border-emerald-400">Wordpress Shortcodes</button>
         </div>
     )
 }

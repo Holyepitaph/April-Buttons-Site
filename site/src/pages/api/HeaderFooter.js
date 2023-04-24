@@ -47,9 +47,9 @@ export function Header(){
 
 function ParagraphFooter(){
     return(
-        <div>
+        <div class="text-sm">
             <img src="" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
-            <h2 class="my-3.5 text-lg font-bold">Go Make Something Awesome</h2>
+            <h2 class="my-3.5 font-bold">Go Make Something Awesome</h2>
             <p class="my-3.5">Font Awesome is the internet's icon library and toolkit used by millions
              of designers, developers, and content creators.</p>
             <p class="my-3.5">Made with and in Bentonville, Boston, Chicago, Grand Rapids, Joplin, Kansas City, Seattle,
@@ -60,7 +60,7 @@ function ParagraphFooter(){
 
 function ListFooter(){
     return(
-        <div class="flex flex-row justify-between my-3.5">
+        <div class="flex flex-row justify-between my-3.5 text-sm">
             <ul>
                 <li class="font-bold">Project</li>
                 <li>Download</li>
