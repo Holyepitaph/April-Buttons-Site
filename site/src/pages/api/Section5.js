@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 
 function ParagraphSectionFive(){
     return(
-        <div class="my-3.5 text-sm">
+        <div class="my-3.5 text-sm md:order-1">
             <h2 class="my-3.5 text-blue-800 font-bold">STYLING TOOLS</h2>
             <h1 class="my-3.5 text-2xl font-bold">Style your icons to your fa-heart's content.</h1>
             <p class="my-3.5">You know and WE know styling icons on the web can be a bit of a chore.
@@ -19,7 +19,7 @@ function ParagraphSectionFive(){
 
 function ButtonSectionFive({children}){
     return(
-        <div>
+        <div class="md:order-3">
         <button class=" border bg-sky-400 border-slate-700 hover:border-sky-800 rounded-xl h-12 
         w-full hover:bg-sky-700 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-sky-300 active:border-sky-800 my-3.5">{children}</button>
@@ -29,7 +29,7 @@ function ButtonSectionFive({children}){
 
 function GridSectionFive(){
     return(
-        <div class="grid grid-cols-2 underlined place-items-center w-full ml-1 my-3.5 underline font-bold text-sm">
+        <div class="grid grid-cols-2 underlined place-items-center w-full ml-1 my-3.5 underline font-bold text-sm md:order-2">
             <div class="my-1">Thousands of Icons</div>
             <div class="my-1">Built-in Sizing</div>
             <div class="my-1">8 Styles</div>
@@ -80,7 +80,7 @@ function BasicTabsSectionFive() {
     };
   
     return (
-      <Box sx={{ width: '100%' }}>
+      <Box sx={{ width: '100%' }}  class="md:order-0 md:row-span-3">
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <Tabs value={value} onChange={handleChange} centered aria-label="basic tabs example">
             <Tab label="Icon" {...a11yProps(0)} />
@@ -113,7 +113,7 @@ function BasicTabsSectionFive() {
 
 export function SectionE(){
     return(
-        <div>
+        <div class="md:grid md:grid-cols-2 md:grid-rows-3 md:gap-4">
             <ParagraphSectionFive/>
             <ButtonSectionFive>View All Styling Options</ButtonSectionFive>
             <GridSectionFive/>

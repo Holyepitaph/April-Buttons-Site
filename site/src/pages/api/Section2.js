@@ -1,6 +1,6 @@
 function ParagraphB(){
     return(
-        <div class="flex flex-col items-start flex-wrap text-sm">
+        <div class="flex flex-col items-start flex-wrap text-sm md:order-0 md:row-span-3">
             <h1 class="font-bold text-blue-700 my-3.5">LATEST UPDATES</h1>
             <h2 class="text-2xl font-bold my-3.5">Discover what's new in Font Awesome.</h2>
             <h1 class="font-bold my-3.5">NEW Introducing Font Awesome Sharp Light!</h1>
@@ -18,7 +18,7 @@ function ParagraphB(){
 
 function Links(){
     return(
-        <div class="grid grid-cols-2 gap-2 ml-11 font-bold text-sm my-3.5 underline">
+        <div class="grid grid-cols-2 gap-2 ml-11 font-bold text-sm my-3.5 underline md:order-2 md:row-span-1">
             <a href="">Version 6.4.0</a>
             <a href="">68 Categories</a>
             <a href="">26,107 Pro Icons</a>
@@ -32,7 +32,7 @@ function ButtonSectionTwoFirst({children}){
         <div>
             <button class=" border-4 border-red-500 hover:border-red-950 rounded-xl 
             w-full h-48 hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-            active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
+            active:translate-y-0.5 active:bg-slate-300 active:border-red-700 md:order-1 md:row-span-1">{children}</button>
         </div>
     )
 }
@@ -57,11 +57,11 @@ function ParagraphSectionTwo(){
 
 export function SectionB(){
     return(
-        <div class="my-3.5">
+        <div class="my-3.5 md:grid md:grid-rows-4 md:grid-cols-2 md:grid-flow-row">
             <ParagraphB/>
             <Links/>
             <ButtonSectionTwoFirst>Introducing Font Awesome Sharp Light!</ButtonSectionTwoFirst>
-            <div class="grid grid-cols-2 place-content-evenly w-full ml-1 my-3.5">
+            <div class="grid grid-cols-2 place-content-evenly w-full ml-1 my-3.5 md:order-1 md:row-span-3">
                 <ButtonSectionTwoSecond>New Thin Style</ButtonSectionTwoSecond>
                 <ButtonSectionTwoSecond>Beta Icon Wizard</ButtonSectionTwoSecond>
                 <ButtonSectionTwoSecond>Humanitarian Icons</ButtonSectionTwoSecond>

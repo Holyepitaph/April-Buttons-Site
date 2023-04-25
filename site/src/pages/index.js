@@ -32,7 +32,9 @@ function TemplateButtonaaaaaa({children}){
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {/*       
+      {/* 
+      {Test}      
+*/}
       <Header/>
       <SectionA/>
       <SectionB/>
@@ -44,9 +46,7 @@ export default function Home() {
       <SectionH/>
       <SectionI/>
       <SectionJ/>
-      <Footer/>*/}
-
-<Test/>
+      <Footer/>
 
 
     </main>

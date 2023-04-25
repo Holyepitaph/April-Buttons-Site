@@ -13,18 +13,18 @@ function ListSectionFour() {
         para: "Give back to the open-source community by subscribing to Font Awesome Pro. In fact, Pro subscribers helped grow Font Awesome Free icons by over 250% since version 4."
       }];
     const listItems = cards.map(card =>
-      <li key={card.id} class=" h-52 flex flex-col rounded-xl items-center w-full justify-between bg-slate-300 border-8 border-slate-500 my-3.5">
+      <li key={card.id} class=" h-52 md:h-72 flex flex-col  rounded-xl items-center w-full justify-between bg-slate-300 border-8 border-slate-500 my-3.5">
         <img
           src={""}
           alt={" "}
         />
-        <p class="flex flex-col text-sm items-center w-full justify-between">
+        <p class="flex flex-col text-sm  items-center w-full justify-between">
           <b>{card.title}</b>
             {' ' + card.para + ' '}
         </p>
       </li>
     );
-    return <ul>{listItems}</ul>;
+    return <ul class="md:grid md:grid-cols-3 md:gap-4">{listItems}</ul>;
   }
 
   function ParagraphSectionFour(){
