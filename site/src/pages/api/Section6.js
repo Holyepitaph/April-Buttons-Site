@@ -1,3 +1,4 @@
+{/**Needs Responsive Update */}
 function ParagraphSection6(){
     return(
         <div class="text-sm">
@@ -66,12 +67,12 @@ export function SectionF(){
         <div class="my-3.5">
             <ParagraphSection6/>
             <ButtonFirstSectionSix>Search Bar</ButtonFirstSectionSix>
-            <div class="flex flex-row justify-center my-3.5  gap-2">
+            <div class="flex flex-row justify-center my-3.5">
                 <ButtonSecondSectionSix>Emoji</ButtonSecondSectionSix>
                 <ButtonSecondSectionSix>Fruits + Vegetables</ButtonSecondSectionSix>
                 <ButtonSecondSectionSix>Alphabet</ButtonSecondSectionSix>
             </div>    
-            <div class="flex flex-row justify-center my-3.5  gap-2">
+            <div class="flex flex-row justify-center my-3.5">
                 <ButtonSecondSectionSix>Maritime</ButtonSecondSectionSix>
                 <ButtonSecondSectionSix>Science Fiction</ButtonSecondSectionSix>
                 <ButtonSecondSectionSix>All Categories</ButtonSecondSectionSix>

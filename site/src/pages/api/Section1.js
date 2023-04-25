@@ -45,7 +45,7 @@ export function SectionA(){
     return(
         <div class="my-3.5">
             <ParagraphSectionOne/>    
-            <div class="flex flex-col md:flex-row w-full justify-between my-3.5">
+            <div class="flex flex-col md:flex-row w-full justify-between my-3.5 md:gap-4">
                 <ButtonSectionOneFirst>Start for Free</ButtonSectionOneFirst>
                 <ButtonSectionOneSecond>Get More with Pro</ButtonSectionOneSecond>
             </div>
