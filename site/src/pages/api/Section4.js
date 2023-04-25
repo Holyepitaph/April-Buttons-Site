@@ -15,8 +15,11 @@ function ListSectionFour() {
     const listItems = cards.map(card =>
       <li key={card.id} class=" h-52 md:h-72 flex flex-col  rounded-xl items-center w-full justify-between bg-slate-300 border-8 border-slate-500 my-3.5">
         <img
-          src={""}
+          src={"/cheese.png"}
           alt={" "}
+          height="50"
+          width="50"
+          class="md:w-24 md:h-24"
         />
         <p class="flex flex-col text-sm  items-center w-full justify-between">
           <b>{card.title}</b>

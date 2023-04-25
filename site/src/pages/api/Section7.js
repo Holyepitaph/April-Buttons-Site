@@ -1,7 +1,7 @@
 function ImageSectionSeven(){
     return(
-        <div class="border-4 border-slate-400 w-full h-[500px] my-3.5 md:order-1 md:row-span-3">
-            <img src="" height="" width="" alt="Pic thats supposed to have mouseOver"/>
+        <div class="border-4 border-slate-400 w-full  my-3.5 md:order-1 md:row-span-3">
+            <img src="/outdoor.jpg" height="" width="" alt="Pic thats supposed to have mouseOver"/>
         </div>
     )
 }
@@ -24,7 +24,7 @@ function ButtonOneSectionSeven({children}){
         <div class="w-full h-11 my-3.5 md:order-2">
           <button class=" border border-slate-500 hover:border-red-950 rounded-xl 
           w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-          active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
+          active:translate-y-0.5 active:bg-slate-300 active:border-red-700 font-bold">{children}</button>
         </div>
     )
   }
@@ -66,7 +66,7 @@ function ButtonOneSectionSeven({children}){
 
 export function SectionG(){
     return(
-        <div class="my-3.5 md:grid md:grid-cols-2 md:gap-4 md:grid-rows-3">
+        <div class="my-3.5 md:grid md:grid-cols-2 md:gap-4 md:grid-rows-1">
             <ImageSectionSeven/>
             <ParagraphFirstSectionSeven/>
             <ButtonOneSectionSeven>Form</ButtonOneSectionSeven>

@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 function NavIn(){
     return(
-    <ul id="nav" class="z-50 bg-white flex flex-col absolute top-10 left-0 justify-between items-center h-1/2 w-full animate-transIn" >
+    <ul id="nav" class="font-bold z-50 bg-white flex flex-col absolute top-10 left-0 justify-between items-center h-1/2 w-full animate-transIn" >
         <li class="border-t-4 w-full center text-center">Start</li>
         <li class="border-t-4 w-full center text-center">Search</li>
         <li class="border-t-4 w-full center text-center">Icons</li>
@@ -16,7 +16,7 @@ function NavIn(){
 
 function NavOut(){
     return(
-    <ul id="nav" class="z-50 bg-white flex flex-col absolute top-10 left-0 justify-between items-center h-1/2 w-full animate-transOut" >
+    <ul id="nav" class="font-bold z-50 bg-white flex flex-col absolute top-10 left-0 justify-between items-center h-1/2 w-full animate-transOut" >
         <li class="border-t-4 w-full center text-center">Start</li>
         <li class="border-t-4 w-full center text-center">Search</li>
         <li class="border-t-4 w-full center text-center">Icons</li>
@@ -35,11 +35,10 @@ export function Header(){
     }
     return(
         <div>
-            <ul class="flex flex-row absolute top-0 left-0 justify-between w-full">
-                <li onClick={click}>Activation</li>
-                <li>PlaceHolder</li>
-                <li>PlaceHolder</li>
-            </ul>
+            <button class="flex flex-row absolute font-bold text-lg
+              top-0 left-0 justify-evenly w-full border-4 border-slate-500 hover:border-slate-950 rounded-xl 
+         hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
+        active:translate-y-0.5 active:bg-slate-300 active:border-slate-700" onClick={click}>Menu</button>
             {isChanged ? <NavIn/> : <NavOut/>}
         </div>
     );
@@ -48,7 +47,7 @@ export function Header(){
 function ParagraphFooter(){
     return(
         <div class="text-sm">
-            <img src="" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
+            <img src="/cheese.jpg" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
             <h2 class="my-3.5 font-bold">Go Make Something Awesome</h2>
             <p class="my-3.5">Font Awesome is the internet's icon library and toolkit used by millions
              of designers, developers, and content creators.</p>

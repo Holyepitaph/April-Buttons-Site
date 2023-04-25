@@ -1,8 +1,8 @@
 function ImageSectionTen(){
     return(
         <div>
-            <div class="w-full border-4 border-emerald-500 bg-emerald-100">
-                <img src="" height="500" width="500" alt="Picture of Something Cool"/>
+            <div class="w-full md:w-auto border-4 border-emerald-500 bg-emerald-100">
+                <img src="/outdoor.jpg" height="500" width="500" alt="Picture of Something Cool"/>
             </div>
         </div>
     )

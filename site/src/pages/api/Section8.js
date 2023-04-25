@@ -1,7 +1,7 @@
 function ImageSectionEight(){
     return(
-        <div class="border-4 border-slate-400 w-full h-[500px] my-3.5">
-            <img src="" height="" width="" alt="Pic thats supposed to have mouseOver"/>
+        <div class="border-4 border-slate-400 w-full md:w-auto my-3.5">
+            <img src="/outdoor.jpg" height="" width="" alt="Pic thats supposed to have mouseOver"/>
         </div>
     )
 }
@@ -20,7 +20,7 @@ function ParagraphSectionEight(){
 function SheetOneSectionEight(){
     return(
         <div class="text-sm">
-            <img src="" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
+            <img src="/cheese.png" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
             <h2 class="font-bold my-3.5">Great for Developers</h2>
             <p class="md:h-16">We've got frameworks and toolkits for the most popular plugins and packages that already
              work the way you expect.</p>
@@ -40,7 +40,7 @@ function SheetOneSectionEight(){
 function SheetSecondSectionEight(){
     return(
         <div class="text-sm">
-            <img src="" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
+            <img src="/cheese.png" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
             <h2 class="my-3.5 font-bold">Great for Designers</h2>
             <p class="md:h-16">Use your own designs alongside thousands of matching Font Awesome icons in each of six unique styles.</p>
             <button class="font-bold text-sm my-3.5 border hover:border-fuchsia-400 rounded-xl 
@@ -59,7 +59,7 @@ function SheetSecondSectionEight(){
 function SheetThreeSectionEight(){
     return(
         <div class="text-sm">
-            <img src="" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
+            <img src="/cheese.png" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
             <h2 class="my-3.5 font-bold">Great for Content Creators</h2>
             <p class="md:h-16">With oodles of free icons — including brands + social icons — our syntax is easy to use
              in authoring tools like WordPress and more.</p>

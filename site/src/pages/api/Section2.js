@@ -29,10 +29,10 @@ function Links(){
 
 function ButtonSectionTwoFirst({children}){
     return(
-        <div>
+        <div class="md:order-1 md:row-span-1">
             <button class=" border-4 border-red-500 hover:border-red-950 rounded-xl 
             w-full h-48 hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-            active:translate-y-0.5 active:bg-slate-300 active:border-red-700 md:order-1 md:row-span-1">{children}</button>
+            active:translate-y-0.5 active:bg-slate-300 active:border-red-700 ">{children}</button>
         </div>
     )
 }

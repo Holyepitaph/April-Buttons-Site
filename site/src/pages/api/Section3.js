@@ -1,8 +1,8 @@
 function ImageSectionThree(){
     return(
         <div class=" md:order-1 md:row-span-3">
-            <div class="w-full border-4 border-emerald-500 bg-emerald-100">
-                <img src="" height="200" width="200" alt="Picture of Something Cool"/>
+            <div class="border-4 border-emerald-500 bg-emerald-100">
+                <img src="/outdoor.jpg" height="200" width="200" alt="Picture of Something Cool"/>
             </div>
         </div>
     )

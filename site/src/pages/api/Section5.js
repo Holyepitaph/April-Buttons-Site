@@ -113,7 +113,7 @@ function BasicTabsSectionFive() {
 
 export function SectionE(){
     return(
-        <div class="md:grid md:grid-cols-2 md:grid-rows-3 md:gap-4">
+        <div class="md:grid md:grid-cols-2 md:grid-rows-1 md:gap-4">
             <ParagraphSectionFive/>
             <ButtonSectionFive>View All Styling Options</ButtonSectionFive>
             <GridSectionFive/>

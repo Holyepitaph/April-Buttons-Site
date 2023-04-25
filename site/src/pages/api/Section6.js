@@ -14,7 +14,7 @@ function ParagraphSection6(){
 
 function ButtonFirstSectionSix({children}){
     return(
-        <div class="h-11">
+        <div class="h-11 w-full my-3.5">
         <button class=" border border-slate-500 hover:border-red-950 rounded-full 
         w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
@@ -24,7 +24,7 @@ function ButtonFirstSectionSix({children}){
 
 function ButtonSecondSectionSix({children}){
     return(
-        <div class="w-2/6 h-24">
+        <div class="w-full h-24">
         <button class=" border-4 border-red-500 hover:border-red-950 rounded-xl 
         w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
@@ -34,7 +34,7 @@ function ButtonSecondSectionSix({children}){
 
 function ButtonThirdSectionSix({children}){
     return(
-        <div class="w-1/3 h-72">
+        <div class="w-full h-72 col-span-2 md:col-span-1">
         <button class="flex flex-col items-center justify-center border-4 border-red-500 hover:border-red-950 rounded-xl 
         w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
@@ -44,7 +44,7 @@ function ButtonThirdSectionSix({children}){
 
 function ButtonFourthSectionSix({children}){
     return(
-        <div class="w-[49%] h-72">
+        <div class="w-full h-72 col-span-3 md:col-span-1">
         <button class="flex flex-col items-center justify-center border-4 border-red-500 hover:border-red-950 rounded-xl 
         w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
@@ -54,7 +54,7 @@ function ButtonFourthSectionSix({children}){
 
 function ButtonFifthSectionSix({children}){
     return(
-        <div class="w-[49%] h-56">
+        <div class="w-full h-56">
         <button class="flex flex-col items-center justify-center border-4 border-red-500 hover:border-red-950 rounded-xl 
         w-full h-full hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
         active:translate-y-0.5 active:bg-slate-300 active:border-red-700">{children}</button>
@@ -67,29 +67,27 @@ export function SectionF(){
         <div class="my-3.5">
             <ParagraphSection6/>
             <ButtonFirstSectionSix>Search Bar</ButtonFirstSectionSix>
-            <div class="flex flex-row justify-center my-3.5">
-                <ButtonSecondSectionSix>Emoji</ButtonSecondSectionSix>
-                <ButtonSecondSectionSix>Fruits + Vegetables</ButtonSecondSectionSix>
-                <ButtonSecondSectionSix>Alphabet</ButtonSecondSectionSix>
-            </div>    
-            <div class="flex flex-row justify-center my-3.5">
-                <ButtonSecondSectionSix>Maritime</ButtonSecondSectionSix>
-                <ButtonSecondSectionSix>Science Fiction</ButtonSecondSectionSix>
-                <ButtonSecondSectionSix>All Categories</ButtonSecondSectionSix>
-            </div>
-            <div class="flex flex-row justify-center my-3.5  gap-2">
-                <ButtonThirdSectionSix><b>Solid</b>Great for Small sizes and bringing contrast to text.</ButtonThirdSectionSix>
-                <ButtonThirdSectionSix><b>Regular</b>East, readable icons that blend in with regular text.</ButtonThirdSectionSix>
-                <ButtonThirdSectionSix><b>Light</b>When a lighter touch is needed.</ButtonThirdSectionSix>
-            </div>
-            <div class="flex flex-row my-3.5 gap-2 flex-wrap">
-                <ButtonFourthSectionSix><b>THIN</b>Fits in with the latest super-light designs.</ButtonFourthSectionSix>
-                <ButtonFourthSectionSix><b>DUOTONE</b>Great for an illustrated feel & grabbing attention.</ButtonFourthSectionSix>
-                <ButtonFifthSectionSix><i><b>SHARP</b></i><b>SOLID</b>A dash of class for a bold, sharp look.</ButtonFifthSectionSix>
-                <ButtonFifthSectionSix><i><b>SHARP</b></i><b>REGULAR</b>Sharpen your designs with straightforward icons.</ButtonFifthSectionSix>
-                <ButtonFifthSectionSix><i><b>SHARP</b></i><b>LIGHT</b>Add a breezy, light touch of modern elegance.</ButtonFifthSectionSix>
-                <ButtonFifthSectionSix><b>BRANDS</b>The easiest way to add social logos to your site.</ButtonFifthSectionSix>
-            </div>
+                <div class="grid grid-cols-3 gap-4 my-3.5 md:grid-cols-6">
+                    <ButtonSecondSectionSix>Emoji</ButtonSecondSectionSix>
+                    <ButtonSecondSectionSix>Fruits + Vegetables</ButtonSecondSectionSix>
+                    <ButtonSecondSectionSix>Alphabet</ButtonSecondSectionSix>
+                    <ButtonSecondSectionSix>Maritime</ButtonSecondSectionSix>
+                    <ButtonSecondSectionSix>Science Fiction</ButtonSecondSectionSix>
+                    <ButtonSecondSectionSix>All Categories</ButtonSecondSectionSix>
+                </div>
+                <div class="grid grid-cols-6 gap-4 my-3.5 md:grid-cols-5">
+                    <ButtonThirdSectionSix><b>Solid</b>Great for Small sizes and bringing contrast to text.</ButtonThirdSectionSix>
+                    <ButtonThirdSectionSix><b>Regular</b>East, readable icons that blend in with regular text.</ButtonThirdSectionSix>
+                    <ButtonThirdSectionSix><b>Light</b>When a lighter touch is needed.</ButtonThirdSectionSix>
+                    <ButtonFourthSectionSix><b>THIN</b>Fits in with the latest super-light designs.</ButtonFourthSectionSix>
+                    <ButtonFourthSectionSix><b>DUOTONE</b>Great for an illustrated feel & grabbing attention.</ButtonFourthSectionSix>
+                </div>
+                <div class="grid grid-cols-2 gap-4 my-3.5 md:grid-cols-4">
+                    <ButtonFifthSectionSix><i><b>SHARP</b></i><b>SOLID</b>A dash of class for a bold, sharp look.</ButtonFifthSectionSix>
+                    <ButtonFifthSectionSix><i><b>SHARP</b></i><b>REGULAR</b>Sharpen your designs with straightforward icons.</ButtonFifthSectionSix>
+                    <ButtonFifthSectionSix><i><b>SHARP</b></i><b>LIGHT</b>Add a breezy, light touch of modern elegance.</ButtonFifthSectionSix>
+                    <ButtonFifthSectionSix><b>BRANDS</b>The easiest way to add social logos to your site.</ButtonFifthSectionSix>
+                </div>
         </div>
     );
 }

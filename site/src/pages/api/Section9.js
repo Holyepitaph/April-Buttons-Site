@@ -1,10 +1,8 @@
 function ImageSectionNine(){
     return(
-        <div class="md:order-1 md:row-span-2">
-            <div class="w-full border-4 border-emerald-500 bg-emerald-100">
-                <img src="" height="500" width="500" alt="Picture of Something Cool"/>
+            <div class="w-full border-4 border-emerald-500 bg-emerald-100 md:order-1 md:w-auto md:row-span-3">
+                <img src="/outdoor.jpg" height="500" width="500" alt="Picture of Something Cool"/>
             </div>
-        </div>
     )
 }
 
@@ -44,7 +42,7 @@ function ButtonOneSectionNine({children}){
 export function SectionI(){
     return(
         <div>
-            <div class="md:grid md:grid-cols-2 md:grid-rows-2">
+            <div class="md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4">
                 <ImageSectionNine/>
                 <ParagraphSectionNine/>
                 <ButtonOneSectionNine>Subscribe to Pro</ButtonOneSectionNine>
