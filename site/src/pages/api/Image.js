@@ -4,8 +4,8 @@ export {ImageSectionThree, ImageSectionSeven, ImageSectionEight, ImageSectionNin
 
 function ImageSectionThree(){
     return(
-        <div class=" md:order-1 md:row-span-3">
-            <div class="border-4 border-emerald-500 bg-emerald-100">
+        <div className=" md:order-1 md:row-span-3">
+            <div className="border-4 border-emerald-500 bg-emerald-100">
                 <Image
               src="/outdoor.jpg"
               alt="Picture of Something Cool"
@@ -21,7 +21,7 @@ function ImageSectionThree(){
 
 function ImageSectionSeven(){
     return(
-        <div class="border-4 border-slate-400 w-full  my-3.5 md:order-1 md:row-span-3">
+        <div className="border-4 border-slate-400 w-full  my-3.5 md:order-1 md:row-span-3">
             <Image
               src="/outdoor.jpg"
               alt="Pic thats supposed to have mouseOver"
@@ -35,7 +35,7 @@ function ImageSectionSeven(){
 
 function ImageSectionEight(){
     return(
-        <div class="border-4 border-slate-400 w-full md:w-auto my-3.5">
+        <div className="border-4 border-slate-400 w-full md:w-auto my-3.5">
             <Image
               src="/outdoor.jpg"
               alt="Pic thats supposed to have mouseOver"
@@ -49,7 +49,7 @@ function ImageSectionEight(){
 
 function ImageSectionNine(){
     return(
-            <div class="w-full border-4 border-emerald-500 bg-emerald-100 md:order-1 md:w-auto md:row-span-3">
+            <div className="w-full border-4 border-emerald-500 bg-emerald-100 md:order-1 md:w-auto md:row-span-3">
                 <Image
               src="/outdoor.jpg"
               alt="Picture of Something Cool"
@@ -64,7 +64,7 @@ function ImageSectionNine(){
 function ImageSectionTen(){
     return(
         <div>
-            <div class="w-full md:w-auto border-4 border-emerald-500 bg-emerald-100">
+            <div className="w-full md:w-auto border-4 border-emerald-500 bg-emerald-100">
                 <Image
               src="/outdoor.jpg"
               alt="Picture of Something Cool"
