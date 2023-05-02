@@ -1,8 +1,16 @@
+import Image from 'next/image'
+
 function ImageSectionThree(){
     return(
         <div class=" md:order-1 md:row-span-3">
             <div class="border-4 border-emerald-500 bg-emerald-100">
-                <img src="/outdoor.jpg" height="200" width="200" alt="Picture of Something Cool"/>
+                <Image
+              src="/outdoor.jpg"
+              alt="Picture of Something Cool"
+              width={200}
+              height={200}
+              priority
+            />
             </div>
         </div>
     )
@@ -15,8 +23,8 @@ function ParagraphSectionThree(){
             <h2 class="text-emerald-500 font-bold">PROUDLY OPEN SOURCE</h2>
             <h1 class="text-2xl font-bold my-3.5">Everyone gets more awesome.</h1>
             <p>We know the pain of wrangling icons on the internet.
-             That's why in 2012, we created the first version of our open-source icons and toolkit.
-              And with the help of our subscription plan Font Awesome Pro, we've built a lean icon-obsessed
+             That&apos;s why in 2012, we created the first version of our open-source icons and toolkit.
+              And with the help of our subscription plan Font Awesome Pro, we&apos;ve built a lean icon-obsessed
                team who keep cranking out more icons, more styles, and more services for everyone.</p>
         </div>
     )

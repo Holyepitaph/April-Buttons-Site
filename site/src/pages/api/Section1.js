@@ -2,7 +2,7 @@ function ParagraphSectionOne(){
     return(
     <div class="flex flex-col items-center w-full my-3.5">
         <h1 class="text-4xl font-bold">Take the hassle out of icons in your <span class="text-amber-500">website.</span></h1>
-        <h2 class="text-md my-3.5"><b>Font Awesome</b> is the Internet's icon library and toolkit,
+        <h2 class="text-md my-3.5"><b>Font Awesome</b> is the Internet&apos;s icon library and toolkit,
          used by millions of designers, developers, and content creators.</h2>
     </div>
     ) 

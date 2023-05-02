@@ -8,9 +8,9 @@ function ParagraphSectionFive(){
     return(
         <div class="my-3.5 text-sm md:order-1">
             <h2 class="my-3.5 text-blue-800 font-bold">STYLING TOOLS</h2>
-            <h1 class="my-3.5 text-2xl font-bold">Style your icons to your fa-heart's content.</h1>
+            <h1 class="my-3.5 text-2xl font-bold">Style your icons to your fa-heart&apos;s content.</h1>
             <p class="my-3.5">You know and WE know styling icons on the web can be a bit of a chore.
-             That's why we fine-tuned our styling tools like a Swiss watch to make icons more
+             That&apos;s why we fine-tuned our styling tools like a Swiss watch to make icons more
               malleable right out of the box. Easily size, place, style, and even animate any icon
                with a short line of code to create the perfect effect. Bippity-boppity-ICON!</p>
         </div>

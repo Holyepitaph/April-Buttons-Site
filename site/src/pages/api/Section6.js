@@ -3,9 +3,9 @@ function ParagraphSection6(){
     return(
         <div class="text-sm">
             <h2 class="text-purple-700 font-bold">ICON DISCOVERY</h2>
-            <h1 class="text-2xl font-bold my-3.5">These ARE the icons you're looking for.</h1>
+            <h1 class="text-2xl font-bold my-3.5">These ARE the icons you&apos;re looking for.</h1>
             <p class="mb-3.5">Have you ever squandered hours scanning the dank, skeezy corners of the internet
-             scrounging up the icons you need? Us too. That's why we re-engineered our icon search
+             scrounging up the icons you need? Us too. That&apos;s why we re-engineered our icon search
               from the ground up with ease of icon findability in mind, so you can match your brand with
                the perfect look and feel.</p>
         </div>

@@ -12,9 +12,6 @@ import {SectionH} from 'src/pages/api/Section8.js'
 import {SectionI} from 'src/pages/api/Section9.js'
 import {SectionJ} from 'src/pages/api/Section10.js'
 import {Footer} from 'src/pages/api/HeaderFooter.js'
-import {Test} from 'src/pages/api/Test.js'
-
-
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -32,9 +29,7 @@ function TemplateButtonaaaaaa({children}){
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {/* 
-      {Test}      
-*/}
+
       <Header/>
       <SectionA/>
       <SectionB/>

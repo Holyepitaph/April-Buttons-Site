@@ -2,10 +2,10 @@ function ParagraphB(){
     return(
         <div class="flex flex-col items-start flex-wrap text-sm md:order-0 md:row-span-3">
             <h1 class="font-bold text-blue-700 my-3.5">LATEST UPDATES</h1>
-            <h2 class="text-2xl font-bold my-3.5">Discover what's new in Font Awesome.</h2>
+            <h2 class="text-2xl font-bold my-3.5">Discover what&apos;s new in Font Awesome.</h2>
             <h1 class="font-bold my-3.5">NEW Introducing Font Awesome Sharp Light!</h1>
-            <h2 class="my-1">Font Awesome Sharp Light has arrived! It's perfect for when you need to add a breezy,
-             light touch of modern elegance. Read the announcement and see what's new in the 6.4.0 release.</h2>
+            <h2 class="my-1">Font Awesome Sharp Light has arrived! It&apos;s perfect for when you need to add a breezy,
+             light touch of modern elegance. Read the announcement and see what&apos;s new in the 6.4.0 release.</h2>
             <h1 class="font-bold my-3.5">BETA Explore the Icon Wizard!</h1>
             <h2 class="my-1">With our new Icon Wizard, you can magically add a modifier – like circle-plus, slash,
              or even poop – to almost any Font Awesome icon. Available now to Font Awesome Pro subscribers.</h2>

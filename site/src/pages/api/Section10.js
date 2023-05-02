@@ -1,8 +1,16 @@
+import Image from 'next/image'
+
 function ImageSectionTen(){
     return(
         <div>
             <div class="w-full md:w-auto border-4 border-emerald-500 bg-emerald-100">
-                <img src="/outdoor.jpg" height="500" width="500" alt="Picture of Something Cool"/>
+                <Image
+              src="/outdoor.jpg"
+              alt="Picture of Something Cool"
+              width={500}
+              height={500}
+              priority
+            />
             </div>
         </div>
     )
@@ -13,8 +21,8 @@ function ParagraphOneSectionTen(){
         <div class="text-sm">
             <h2 class="text-purple-800 font-bold my-3.5">ICON COMMISSIONS</h2>
             <h1 class="text-2xl font-bold my-3.5">Any Icon You Can Imagine.</h1>
-            <p>Can't find the exact icon you need? Think of Font Awesome as your very own in-house
-             icon magician. We'll design it for you — alakazam! — and add it to Font Awesome 6.</p>
+            <p>Can&apos;t find the exact icon you need? Think of Font Awesome as your very own in-house
+             icon magician. We&apos;ll design it for you — alakazam! — and add it to Font Awesome 6.</p>
         </div>
     )
 }

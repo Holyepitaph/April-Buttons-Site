@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Image from 'next/image'
 
 function NavIn(){
     return(
@@ -47,9 +48,16 @@ export function Header(){
 function ParagraphFooter(){
     return(
         <div class="text-sm">
-            <img src="/cheese.jpg" height="100" width="100" alt="Icon" class="border-4 border-slate-200 my-3.5"/>
+            <Image
+              src="/cheese.jpg"
+              alt="Queso"
+              width={100}
+              height={100}
+              class="border-4 border-slate-200 my-3.5"
+              priority
+            />
             <h2 class="my-3.5 font-bold">Go Make Something Awesome</h2>
-            <p class="my-3.5">Font Awesome is the internet's icon library and toolkit used by millions
+            <p class="my-3.5">Font Awesome is the internet&apos;s icon library and toolkit used by millions
              of designers, developers, and content creators.</p>
             <p class="my-3.5">Made with and in Bentonville, Boston, Chicago, Grand Rapids, Joplin, Kansas City, Seattle,
              Tampa, and Vergennes.</p>        

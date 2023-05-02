@@ -1,7 +1,15 @@
+import Image from 'next/image'
+
 function ImageSectionSeven(){
     return(
         <div class="border-4 border-slate-400 w-full  my-3.5 md:order-1 md:row-span-3">
-            <img src="/outdoor.jpg" height="" width="" alt="Pic thats supposed to have mouseOver"/>
+            <Image
+              src="/outdoor.jpg"
+              alt="Pic thats supposed to have mouseOver"
+              width={100}
+              height={100}
+              priority
+            />
         </div>
     )
 }
@@ -12,7 +20,7 @@ function ParagraphFirstSectionSeven(){
             <h2 class="text-amber-500 font-bold">CUSTOMIZE WITH A KIT</h2>
             <h1 class="text-2xl font-bold my-3.5">Have icons, will travel.</h1>
             <p>Pack up your very own custom version of Font Awesome, and get started easily with
-             a Kit lickity-split. We'll bundle only the icons, tools, and settings you need, so you
+             a Kit lickity-split. We&apos;ll bundle only the icons, tools, and settings you need, so you
               can travel light wherever you go.</p>
             <p class="font-bold">Enter your email to create your first kit!</p>
         </div>
@@ -48,7 +56,7 @@ function ButtonOneSectionSeven({children}){
             </div>
             <div>
                 <h1 class="font-bold my-3.5">Auto-Accessibility & More</h1>
-                <p>Automate your icons' accessibility, control load timing, ensure Font Awesome
+                <p>Automate your icons&apos; accessibility, control load timing, ensure Font Awesome
                  Version 4 compatibility, and more.</p>
             </div>
             <div>
