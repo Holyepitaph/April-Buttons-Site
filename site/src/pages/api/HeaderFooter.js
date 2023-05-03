@@ -56,11 +56,11 @@ function ParagraphFooter(){
               className="border-4 border-slate-200 my-3.5"
               priority
             />
-            <h2 className="my-3.5 font-bold">Go Make Something Awesome</h2>
-            <p className="my-3.5">Font Awesome is the internet&apos;s icon library and toolkit used by millions
-             of designers, developers, and content creators.</p>
-            <p className="my-3.5">Made with and in Bentonville, Boston, Chicago, Grand Rapids, Joplin, Kansas City, Seattle,
-             Tampa, and Vergennes.</p>        
+            <h2 className="my-3.5 font-bold">Innovating the future, today</h2>
+            <p className="my-3.5">We strive to achieve the highest level of quality and
+             performance in everything we do, while also prioritizing sustainability and social responsibility.</p>
+            <p className="my-3.5">Our goal is to inspire and empower our customers to achieve 
+            their full potential, while also contributing to the betterment of society and the planet as a whole.</p>        
         </div>
     )
 }
@@ -69,18 +69,18 @@ function ListFooter(){
     return(
         <div className="flex flex-row justify-between my-3.5 text-sm">
             <ul>
-                <li className="font-bold">Project</li>
-                <li>Download</li>
-                <li>Changelog</li>
-                <li>Commission Icons</li>
-                <li>All Versions</li>
+                <li className="font-bold">Products</li>
+                <li>Computers</li>
+                <li>Smartphones</li>
+                <li>Smart Home</li>
+                <li>Virtual Reality</li>
             </ul>
             <ul>
-                <li className="font-bold">Community</li>
-                <li>GitHub</li>
-                <li>Icon Requests</li>
-                <li>Twitter</li>
-                <li>Shirts + Stuff</li>
+                <li className="font-bold">Software</li>
+                <li>Nebula SafeGuard Pro</li>
+                <li>NebulaCapture</li>
+                <li>Nebula Fitness</li>
+                <li>Nebula Music</li>
             </ul>
             <ul>
                 <li className="font-bold">Help</li>

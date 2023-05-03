@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export {ButtonSectionOneFirst, ButtonSectionOneSecond, 
     ButtonSectionTwoFirst, ButtonSectionTwoSecond, ButtonSectionThreeFirst,
      ButtonSectionFive, ButtonFirstSectionSix, ButtonSecondSectionSix, ButtonThirdSectionSix,
@@ -30,7 +32,15 @@ function ButtonSectionTwoFirst({children}){
         <div className="md:order-1 md:row-span-1">
             <button className=" border-4 border-red-500 hover:border-red-950 rounded-xl 
             w-full h-48 hover:bg-slate-400 shadow-[0_5px_#999] active:shadow-[0_3px_#999]
-            active:translate-y-0.5 active:bg-slate-300 active:border-red-700 ">{children}</button>
+            active:translate-y-0.5 active:bg-slate-300 active:border-red-700 flex flex-col items-center "> 
+               <Image
+              src="/watch.webp"
+              alt="Icon"
+              className="border-4 border-slate-200 my-3.5"
+              width={100}
+              height={100}
+              priority
+            />{children}</button>
         </div>
     )
 }

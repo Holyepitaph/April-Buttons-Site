@@ -6,9 +6,8 @@ export {ParagraphSectionOne, ParagraphSectionTwoFirst, ParagraphSectionTwoSecond
 function ParagraphSectionOne(){
     return(
     <div className="flex flex-col items-center w-full my-3.5">
-        <h1 className="text-4xl font-bold">Take the hassle out of icons in your <span className="text-amber-500">website.</span></h1>
-        <h2 className="text-md my-3.5"><b>Font Awesome</b> is the Internet&apos;s icon library and toolkit,
-         used by millions of designers, developers, and content creators.</h2>
+        <h1 className="text-4xl font-bold">Introducing the <span className="text-amber-500">Nebula Nexus X</span></h1>
+        <h2 className="text-md my-3.5">The sleekest edition to the <b>Nebula Mobile</b> franchise.</h2>
     </div>
     ) 
 }
@@ -16,17 +15,18 @@ function ParagraphSectionOne(){
 function ParagraphSectionTwoFirst(){
     return(
         <div className="flex flex-col items-start flex-wrap text-sm md:order-0 md:row-span-3">
-            <h1 className="font-bold text-blue-700 my-3.5">LATEST UPDATES</h1>
-            <h2 className="text-2xl font-bold my-3.5">Discover what&apos;s new in Font Awesome.</h2>
-            <h1 className="font-bold my-3.5">NEW Introducing Font Awesome Sharp Light!</h1>
-            <h2 className="my-1">Font Awesome Sharp Light has arrived! It&apos;s perfect for when you need to add a breezy,
-             light touch of modern elegance. Read the announcement and see what&apos;s new in the 6.4.0 release.</h2>
-            <h1 className="font-bold my-3.5">BETA Explore the Icon Wizard!</h1>
-            <h2 className="my-1">With our new Icon Wizard, you can magically add a modifier – like circle-plus, slash,
-             or even poop – to almost any Font Awesome icon. Available now to Font Awesome Pro subscribers.</h2>
+            <h1 className="font-bold text-blue-700 my-3.5">ACCESSORIES</h1>
+            <h2 className="text-2xl font-bold my-3.5">Discover the Nebula Watch Pro</h2>
+            <h1 className="font-bold my-3.5">NEW 1.5-inch AMOLED display with a resolution of 360 x 360 pixels</h1>
+            <h2 className="my-1">Nebula&apos;s newest smart watch is the perfect accessory for anyone who wants
+             to stay connected and organized on-the-go.</h2>
+            <h1 className="font-bold my-3.5">BETA Nebula Smart Fitness</h1>
+            <h2 className="my-1"> Advanced sensors and health monitoring features, this smart watch
+             can help you stay on top of your physical well-being and achieve your health goals.</h2>
             <h1 className="font-bold my-3.5">More Plugins + Packages</h1>
-            <h2 className="my-1">Font Awesome 6 makes it even easier to use icons where you want to.
-             More plugins and packages to match your stack. Less time wrestling browser rendering.</h2>
+            <h2 className="my-1">Whether you're tracking your fitness goals, receiving important
+             notifications, or controlling your smart home devices, this watch has everything you need
+              to stay on top of your game.</h2>
         </div>
     )
 }
@@ -42,31 +42,32 @@ function ParagraphSectionTwoSecond(){
 function ParagraphSectionThree(){
     return(
         <div className="my-3.5 text-sm md:order-0 md:row-span-2">
-            <h2 className="text-emerald-500 font-bold">PROUDLY OPEN SOURCE</h2>
-            <h1 className="text-2xl font-bold my-3.5">Everyone gets more awesome.</h1>
-            <p>We know the pain of wrangling icons on the internet.
-             That&apos;s why in 2012, we created the first version of our open-source icons and toolkit.
-              And with the help of our subscription plan Font Awesome Pro, we&apos;ve built a lean icon-obsessed
-               team who keep cranking out more icons, more styles, and more services for everyone.</p>
+            <h2 className="text-emerald-500 font-bold">SECURITY</h2>
+            <h1 className="text-2xl font-bold my-3.5">Now including Nebula&apos;s SafeGuard Pro</h1>
+            <p>SafeGuard Pro is an all-in-one security app designed to keep you and your data safe.
+             With powerful features like real-time malware scanning, encryption, and password management,
+              you can rest assured that your digital life is secure. </p>
         </div>
     )
 }
 
 function ParagraphSectionFour(){
     return(
-        <p className="flex justify-center text-sm underline font-bold">Font Awesome is one of the top open source projects on GitHub</p>
+        <p className="flex justify-center text-sm underline font-bold">SafeGuard Pro now available on all Android Devices.</p>
     )
   }
 
 function ParagraphSectionFive(){
     return(
         <div className="my-3.5 text-sm md:order-1">
-            <h2 className="my-3.5 text-blue-800 font-bold">STYLING TOOLS</h2>
-            <h1 className="my-3.5 text-2xl font-bold">Style your icons to your fa-heart&apos;s content.</h1>
-            <p className="my-3.5">You know and WE know styling icons on the web can be a bit of a chore.
-             That&apos;s why we fine-tuned our styling tools like a Swiss watch to make icons more
-              malleable right out of the box. Easily size, place, style, and even animate any icon
-               with a short line of code to create the perfect effect. Bippity-boppity-ICON!</p>
+            <h2 className="my-3.5 text-blue-800 font-bold">SPEED</h2>
+            <h1 className="my-3.5 text-2xl font-bold">The rush you want when you want it.</h1>
+            <p className="my-3.5">The Nebula Nexus X boasts lightning-fast performance thanks to its powerful
+             16-core processor and ample RAM. Users can switch between apps seamlessly and enjoy
+              smooth multitasking without any lag. Additionally, the device&apos;s high-speed data connectivity
+               ensures speedy downloads and streaming, making it an ideal choice for anyone who values speed
+                and efficiency in their mobile devices. Whether you&apos;re browsing the web, streaming content, or
+                 running resource-intensive apps, the Nebula Nexus X delivers a speedy and responsive experience.</p>
         </div>
     )
 }
@@ -74,12 +75,10 @@ function ParagraphSectionFive(){
 function ParagraphSection6(){
     return(
         <div className="text-sm">
-            <h2 className="text-purple-700 font-bold">ICON DISCOVERY</h2>
-            <h1 className="text-2xl font-bold my-3.5">These ARE the icons you&apos;re looking for.</h1>
-            <p className="mb-3.5">Have you ever squandered hours scanning the dank, skeezy corners of the internet
-             scrounging up the icons you need? Us too. That&apos;s why we re-engineered our icon search
-              from the ground up with ease of icon findability in mind, so you can match your brand with
-               the perfect look and feel.</p>
+            <h2 className="text-purple-700 font-bold">CAMERA</h2>
+            <h1 className="text-2xl font-bold my-3.5">These ARE the photos you&apos;re looking for.</h1>
+            <p className="mb-3.5">The Nebula Nexus X boasts a high-quality camera that captures stunning
+             photos with exceptional clarity and vivid colors.</p>
         </div>
     )
 }
@@ -87,11 +86,12 @@ function ParagraphSection6(){
 function ParagraphFirstSectionSeven(){
     return(
         <div className="my-3.5 text-sm md:order-0">
-            <h2 className="text-amber-500 font-bold">CUSTOMIZE WITH A KIT</h2>
-            <h1 className="text-2xl font-bold my-3.5">Have icons, will travel.</h1>
-            <p>Pack up your very own custom version of Font Awesome, and get started easily with
-             a Kit lickity-split. We&apos;ll bundle only the icons, tools, and settings you need, so you
-              can travel light wherever you go.</p>
+            <h2 className="text-amber-500 font-bold">SOFTWARE</h2>
+            <h1 className="text-2xl font-bold my-3.5"><b>NebulaCapture</b> the newest update to the Android Family</h1>
+            <p>The Nebula Nexus X boasts the latest and greatest software, designed to provide a smooth
+             and intuitive user experience. The phone runs on the latest version of Nebula&apos;s custom operating
+              system, optimized for performance and efficiency. The user interface is clean and user-friendly,
+               with easy access to all the phone's features and settings. .</p>
             <p className="font-bold">Enter your email to create your first kit!</p>
         </div>
     )
@@ -101,22 +101,24 @@ function ParagraphSecondSectionSeven(){
     return(
         <div className="my-3.5 text-sm md:order-4 md:col-span-2 md:grid md:grid-cols-2 md:gap-4">
             <div>
-                <h1 className="font-bold my-3.5">The Latest and Greatest</h1>
-                <p>Kits auto-update to the newest version of Font Awesome, so you can stop managing files and pushing code.</p>
+                <h1 className="font-bold my-3.5">Starting Off Strong</h1>
+                <p>The phone comes pre-loaded with a suite of apps, including social media, messaging, and
+                 productivity tools. </p>
             </div>
             <div>
-                <h1 className="font-bold my-3.5">Auto-Accessibility & More</h1>
-                <p>Automate your icons&apos; accessibility, control load timing, ensure Font Awesome
-                 Version 4 compatibility, and more.</p>
+                <h1 className="font-bold my-3.5">The Perfect Picture Everytime</h1>
+                <p>The camera app is especially noteworthy, offering a wide range of features and settings
+                 to help users capture the perfect shot.</p>
             </div>
             <div>
-                <h1 className="font-bold my-3.5">Super Simple Subsetting</h1>
-                <p>Speed up your site with a super-lean, ultra-fast version of Font Awesome! Choose just the
-                 icons you need, and your Kit serves them up as a subset, making it faster than ever.</p>
+                <h1 className="font-bold my-3.5">Secure</h1>
+                <p>The software is regularly updated with security patches and bug fixes, ensuring that the
+                 phone remains secure and reliable over time. </p>
             </div>
             <div>
-                <h1 className="font-bold my-3.5">Powered by Cloudflare</h1>
-                <p>Font Awesome Kits are served using Cloudflare, so you know they’re secure, private, fast, and reliable.</p>
+                <h1 className="font-bold my-3.5">Always on time</h1>
+                <p>Overall, the Nebula Nexus X's software is a key selling point, providing a powerful and
+                 easy-to-use platform for all your mobile needs.</p>
             </div>
         </div>
     )
@@ -125,10 +127,11 @@ function ParagraphSecondSectionSeven(){
 function ParagraphSectionEight(){
     return(
         <div className="my-3.5 text-sm">
-            <h2 className="text-blue-800 my-3.5 font-bold">THE RIGHT TOOL FOR THE JOB</h2>
-            <h1 className="text-2xl font-bold my-3.5">No need to reinvent the wheel.</h1>
-            <p>Whether you&apos;re working on a website, app, or project, we&apos;ve got a set of tools
-             that work how and where you do. So there&apos;s no need to hack your way through your next build.</p>
+            <h2 className="text-blue-800 my-3.5 font-bold">DISPLAY</h2>
+            <h1 className="text-2xl font-bold my-3.5">6.7-inch holographic display with 4K resolution and HDR support</h1>
+            <p>The Nebula Nexus X features a stunning display that is sure to impress even
+             the most discerning users. With its high resolution and vibrant colors, every image
+              and video comes to life on the screen.</p>
         </div>
     )
 }
@@ -136,12 +139,15 @@ function ParagraphSectionEight(){
 function ParagraphSectionNine(){
     return(
         <div className="text-sm md:order-0 md:row-span-1">
-            <h2 className="text-emerald-800 font-bold my-3.5">FUTUREPROOFED</h2>
-            <h1 className="text-2xl font-bold my-3.5">We grow with you.</h1>
-            <p>Setting up your first project with Font Awesome is a breeze, and we keep pace as your
-             needs change over time. Font Awesome works where, and how, you do. And when you&apos;re ready, Font
-              Awesome Pro gives you more icons, styles, and developer and designer tools — which helps streamline
-               your workflows and save time.</p>
+            <h2 className="text-emerald-800 font-bold my-3.5">CONNECTIVITY</h2>
+            <h1 className="text-2xl font-bold my-3.5">Staying Up to Date everywhere</h1>
+            <p>The Nebula Nexus X is designed to provide seamless connectivity with other devices
+             and networks. It comes equipped with the latest wireless technologies such as Wi-Fi 6,
+              Bluetooth 5.2, and NFC for fast and reliable connections. Additionally, the Nexus X supports
+               5G networks for lightning-fast download and upload speeds, making it the perfect companion for
+                streaming high-quality media, playing online games, or downloading large files. It also
+                 features a USB Type-C port for fast charging and data transfer, as well as support for
+                  wireless charging. </p>
         </div>
     )
 }
@@ -149,10 +155,16 @@ function ParagraphSectionNine(){
 function ParagraphOneSectionTen(){
     return(
         <div className="text-sm">
-            <h2 className="text-purple-800 font-bold my-3.5">ICON COMMISSIONS</h2>
-            <h1 className="text-2xl font-bold my-3.5">Any Icon You Can Imagine.</h1>
-            <p>Can&apos;t find the exact icon you need? Think of Font Awesome as your very own in-house
-             icon magician. We&apos;ll design it for you — alakazam! — and add it to Font Awesome 6.</p>
+            <h2 className="text-purple-800 font-bold my-3.5">AUDIO</h2>
+            <h1 className="text-2xl font-bold my-3.5">Aurora Soundbloom Pro.</h1>
+            <p>The Apollo Bluetooth Headphones seamlessly integrate with the Nebula Nexus X,
+             providing a wireless audio experience that is unrivaled in quality and convenience.
+              With its advanced Bluetooth technology, these headphones deliver crystal-clear sound,
+               and the ergonomic design ensures a comfortable fit for extended listening sessions.
+                Additionally, the Apollo headphones are equipped with touch controls, allowing users to
+                 easily control music playback, adjust volume, and even answer calls directly from the headphones.
+                  Whether you're on a jog, in the office, or at home, the Apollo headphones provide the ultimate
+                   audio experience when paired with the Nebula Nexus X.</p>
         </div>
     )
 }
@@ -160,9 +172,9 @@ function ParagraphOneSectionTen(){
 function ParagraphTwoSectionTen(){
     return(
         <div className="text-sm">
-            <h2 className="my-3.5 font-bold">UPGRADE TO FONT AWESOME PRO</h2>
-            <p>Font Awesome Pro gives you 26,107 icons in 68 categories across six styles + brands.
-             Plus, Actual Human™ tech support, hosted Pro Kits, Pro npm, and more!</p>
+            <h2 className="my-3.5 font-bold">BATTERY</h2>
+            <p>For up to 5 days of charge the Nexus has a 5,000mAh battery with fast charging and wireless charging support.
+             It also features a USB Type-C port for fast charging and data transfer.</p>
         </div>
     )
 }

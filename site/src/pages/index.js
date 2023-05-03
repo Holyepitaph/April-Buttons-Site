@@ -28,8 +28,8 @@ function SectionA(){
       <div className="my-3.5">
           <ParagraphSectionOne/>    
           <div className="flex flex-col md:flex-row w-full justify-between my-3.5 md:gap-4">
-              <ButtonSectionOneFirst>Start for Free</ButtonSectionOneFirst>
-              <ButtonSectionOneSecond>Get More with Pro</ButtonSectionOneSecond>
+              <ButtonSectionOneFirst>Buy Now</ButtonSectionOneFirst>
+              <ButtonSectionOneSecond>See In Stores</ButtonSectionOneSecond>
           </div>
           <VideoSectionOne/>
       </div>
@@ -41,12 +41,12 @@ function SectionB(){
       <div className="my-3.5 md:grid md:grid-rows-4 md:grid-cols-2 md:grid-flow-row">
           <ParagraphSectionTwoFirst/>
           <Links/>
-          <ButtonSectionTwoFirst>Introducing Font Awesome Sharp Light!</ButtonSectionTwoFirst>
+          <ButtonSectionTwoFirst>Introducing <b>Nebula Watch Pro!</b></ButtonSectionTwoFirst>
           <div className="grid grid-cols-2 place-content-evenly w-full ml-1 my-3.5 md:order-1 md:row-span-3">
-              <ButtonSectionTwoSecond>New Thin Style</ButtonSectionTwoSecond>
-              <ButtonSectionTwoSecond>Beta Icon Wizard</ButtonSectionTwoSecond>
-              <ButtonSectionTwoSecond>Humanitarian Icons</ButtonSectionTwoSecond>
-              <ButtonSectionTwoSecond>New Animations</ButtonSectionTwoSecond>
+              <ButtonSectionTwoSecond>Up to 5 Day Battery Life</ButtonSectionTwoSecond>
+              <ButtonSectionTwoSecond>5ATM water resistance</ButtonSectionTwoSecond>
+              <ButtonSectionTwoSecond>Snapdragon Wear 4100</ButtonSectionTwoSecond>
+              <ButtonSectionTwoSecond>Available in <b>Black, Silver, Rose Gold</b></ButtonSectionTwoSecond>
           </div>
           <ParagraphSectionTwoSecond/>
       </div>
@@ -58,7 +58,7 @@ function SectionC(){
       <div className="my-3.5 md:grid md:grid-rows-4 md:grid-cols-2 md:grid-flow-row md:gap-4">
           <ImageSectionThree/>
           <ParagraphSectionThree/>
-          <ButtonSectionThreeFirst>Explore Font Awesome Free</ButtonSectionThreeFirst>
+          <ButtonSectionThreeFirst>Explore Your New Safe Haven</ButtonSectionThreeFirst>
       </div>
   );
 }
@@ -76,7 +76,7 @@ function SectionE(){
   return(
       <div className="md:grid md:grid-cols-2 md:grid-rows-1 md:gap-4">
           <ParagraphSectionFive/>
-          <ButtonSectionFive>View All Styling Options</ButtonSectionFive>
+          <ButtonSectionFive>View All Specifications</ButtonSectionFive>
           <GridSectionFive/>
       </div>
   );
@@ -88,25 +88,25 @@ function SectionF(){
           <ParagraphSection6/>
           <ButtonFirstSectionSix>Search Bar</ButtonFirstSectionSix>
               <div className="grid grid-cols-3 gap-4 my-3.5 md:grid-cols-6">
-                  <ButtonSecondSectionSix>Emoji</ButtonSecondSectionSix>
-                  <ButtonSecondSectionSix>Fruits + Vegetables</ButtonSecondSectionSix>
-                  <ButtonSecondSectionSix>Alphabet</ButtonSecondSectionSix>
-                  <ButtonSecondSectionSix>Maritime</ButtonSecondSectionSix>
-                  <ButtonSecondSectionSix>Science Fiction</ButtonSecondSectionSix>
+                  <ButtonSecondSectionSix>Instant</ButtonSecondSectionSix>
+                  <ButtonSecondSectionSix>Action/Adventure</ButtonSecondSectionSix>
+                  <ButtonSecondSectionSix>Bridge</ButtonSecondSectionSix>
+                  <ButtonSecondSectionSix>Full-frame</ButtonSecondSectionSix>
+                  <ButtonSecondSectionSix>Point-and-shoot</ButtonSecondSectionSix>
                   <ButtonSecondSectionSix>All Categories</ButtonSecondSectionSix>
               </div>
               <div className="grid grid-cols-6 gap-4 my-3.5 md:grid-cols-5">
                   <ButtonThirdSectionSix><b>Solid</b>Great for Small sizes and bringing contrast to text.</ButtonThirdSectionSix>
-                  <ButtonThirdSectionSix><b>Regular</b>East, readable icons that blend in with regular text.</ButtonThirdSectionSix>
-                  <ButtonThirdSectionSix><b>Light</b>When a lighter touch is needed.</ButtonThirdSectionSix>
-                  <ButtonFourthSectionSix><b>THIN</b>Fits in with the latest super-light designs.</ButtonFourthSectionSix>
-                  <ButtonFourthSectionSix><b>DUOTONE</b>Great for an illustrated feel & grabbing attention.</ButtonFourthSectionSix>
+                  <ButtonThirdSectionSix><b>ACTION SHOTS</b> A photograph of a person or animal in motion, such as sports, dance, or wildlife photography.</ButtonThirdSectionSix>
+                  <ButtonThirdSectionSix><b>STILL LIFE</b> A photograph of inanimate objects arranged in an artistic composition.</ButtonThirdSectionSix>
+                  <ButtonFourthSectionSix><b>BLACK & WHITE</b> A photograph without color, often used to create a timeless or dramatic effect.</ButtonFourthSectionSix>
+                  <ButtonFourthSectionSix><b>WILDLIFE</b> A photograph of animals in their natural habitat, often featuring exotic or endangered species.</ButtonFourthSectionSix>
               </div>
               <div className="grid grid-cols-2 gap-4 my-3.5 md:grid-cols-4">
-                  <ButtonFifthSectionSix><i><b>SHARP</b></i><b>SOLID</b>A dash of className for a bold, sharp look.</ButtonFifthSectionSix>
-                  <ButtonFifthSectionSix><i><b>SHARP</b></i><b>REGULAR</b>Sharpen your designs with straightforward icons.</ButtonFifthSectionSix>
-                  <ButtonFifthSectionSix><i><b>SHARP</b></i><b>LIGHT</b>Add a breezy, light touch of modern elegance.</ButtonFifthSectionSix>
-                  <ButtonFifthSectionSix><b>BRANDS</b>The easiest way to add social logos to your site.</ButtonFifthSectionSix>
+                  <ButtonFifthSectionSix><b>STREET PHOTOGRAPHY</b> A photograph taken in public places, often capturing candid moments and everyday life.</ButtonFifthSectionSix>
+                  <ButtonFifthSectionSix><b>MACRO:</b> A close-up photograph of a small object or detail, often highlighting intricate textures and patterns.</ButtonFifthSectionSix>
+                  <ButtonFifthSectionSix><b>NIGHT PHOTOGRAPHY:</b> A photograph taken in low-light conditions, often featuring cityscapes, stars, and other sources of artificial light.</ButtonFifthSectionSix>
+                  <ButtonFifthSectionSix><b>ABSTRACT:</b> A photograph that emphasizes form, color, and texture over recognizable subjects.</ButtonFifthSectionSix>
               </div>
       </div>
   );
@@ -118,7 +118,7 @@ function SectionG(){
           <ImageSectionSeven/>
           <ParagraphFirstSectionSeven/>
           <ButtonOneSectionSeven>Form</ButtonOneSectionSeven>
-          <ButtonTwoSectionSeven>Send Kit Code</ButtonTwoSectionSeven>
+          <ButtonTwoSectionSeven>Buy Now</ButtonTwoSectionSeven>
           <ParagraphSecondSectionSeven/>
       </div>
   );
@@ -149,10 +149,10 @@ function SectionI(){
               <ButtonOneSectionNine>Subscribe to Pro</ButtonOneSectionNine>
           </div>
           <div className="md:grid md:grid-cols-4 md:gap-4">
-              <ButtonTwoSectionNine><b>Get access to an ever-expanding collection of icons.</b>As your design needs ramp up, Font Awesome Pro is there to meet you. With Pro you get thousands of icons in multiple styles — and counting!</ButtonTwoSectionNine>
-              <ButtonTwoSectionNine><b>Create space for collaboration.</b>As your team fills out, we can accommodate that growth with a Pro license seat for everyone at the table, no matter your company size.</ButtonTwoSectionNine>
-              <ButtonTwoSectionNine><b>Add your own icons and logos.</b>Now you can upload your own logos and icons to a Kit and easily use our styling options right alongside Font Awesome icons.</ButtonTwoSectionNine>
-              <ButtonTwoSectionNine><b>Customize Font Awesome.</b>Create a new Kit for each site you work on. We&apos;ll subset only the icons you need, and automate both updates and accessibility.</ButtonTwoSectionNine>
+              <ButtonTwoSectionNine><b>Everything you need</b>Wi-Fi 6, Bluetooth 5.2, and NFC for fast and reliable connections.</ButtonTwoSectionNine>
+              <ButtonTwoSectionNine><b>5G Connection</b>The perfect companion for streaming high-quality media, playing online games, or downloading large files.</ButtonTwoSectionNine>
+              <ButtonTwoSectionNine><b>Fast Charging</b>USB Type-C port for fast charging and data transfer, as well as support for wireless charging.</ButtonTwoSectionNine>
+              <ButtonTwoSectionNine><b>Seamless Integration</b>The Nebula Nexus offers seamless integration with various social media platforms, allowing users to easily share their photos and experiences with their friends and followers.</ButtonTwoSectionNine>
           </div>
       </div>
   );
@@ -166,13 +166,17 @@ function SectionJ(){
               <ParagraphOneSectionTen/>
           </div>
           <div className="md:grid md:grid-cols-4 md:gap-4">
-              <ButtonOneSectionTen><p><b>1 Icon $300</b></p><p>Add that single icon you’ve always wanted in all of Font Awesome’s styles.</p></ButtonOneSectionTen>
-              <ButtonOneSectionTen><b>6 Icons $1,500</b>Just say the magic word, and six icons of your choice will appear in all of our stylers.</ButtonOneSectionTen>
-              <ButtonOneSectionTen><b>24 Icons $4,800</b>Your wish is our command -- add twenty-four icons of your choice in all of our styles.</ButtonOneSectionTen>
-              <ButtonOneSectionTen><b>Your Logo $3,00</b>Make your brand’s existing logo known and accessible to millions of users by adding it to Font Awesome Free.</ButtonOneSectionTen>
+              <ButtonOneSectionTen><b>High-quality sound output</b> with deep bass and clear treble.
+Noise-cancelling technology to block out unwanted background noise.</ButtonOneSectionTen>
+              <ButtonOneSectionTen><b>Comfortable</b> over-ear design with soft padding for extended use.
+Bluetooth 5.0 technology for seamless wireless connectivity to compatible devices.</ButtonOneSectionTen>
+              <ButtonOneSectionTen><b>Touch-sensitive controls</b> for easy adjustment of volume, playback, and calls.
+Built-in microphone for hands-free phone calls and voice commands.</ButtonOneSectionTen>
+              <ButtonOneSectionTen><b>Long battery life</b> with up to 20 hours of continuous use on a single charge.
+Fast charging capability with a 15-minute charge providing up to 2 hours of playback time.</ButtonOneSectionTen>
           </div>
           <ParagraphTwoSectionTen/>
-          <ButtonTwoSectionTen>Get Font Awesome Pro</ButtonTwoSectionTen>
+          <ButtonTwoSectionTen>Get the Nebula Nexus X</ButtonTwoSectionTen>
       </div>
   );
 }
