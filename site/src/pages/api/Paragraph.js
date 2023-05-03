@@ -24,7 +24,7 @@ function ParagraphSectionTwoFirst(){
             <h2 className="my-1"> Advanced sensors and health monitoring features, this smart watch
              can help you stay on top of your physical well-being and achieve your health goals.</h2>
             <h1 className="font-bold my-3.5">More Plugins + Packages</h1>
-            <h2 className="my-1">Whether you're tracking your fitness goals, receiving important
+            <h2 className="my-1">Whether you&apos;re tracking your fitness goals, receiving important
              notifications, or controlling your smart home devices, this watch has everything you need
               to stay on top of your game.</h2>
         </div>
@@ -91,7 +91,7 @@ function ParagraphFirstSectionSeven(){
             <p>The Nebula Nexus X boasts the latest and greatest software, designed to provide a smooth
              and intuitive user experience. The phone runs on the latest version of Nebula&apos;s custom operating
               system, optimized for performance and efficiency. The user interface is clean and user-friendly,
-               with easy access to all the phone's features and settings. .</p>
+               with easy access to all the phone&apos;s features and settings. .</p>
             <p className="font-bold">Enter your email to create your first kit!</p>
         </div>
     )
@@ -117,7 +117,7 @@ function ParagraphSecondSectionSeven(){
             </div>
             <div>
                 <h1 className="font-bold my-3.5">Always on time</h1>
-                <p>Overall, the Nebula Nexus X's software is a key selling point, providing a powerful and
+                <p>Overall, the Nebula Nexus X&apos;s software is a key selling point, providing a powerful and
                  easy-to-use platform for all your mobile needs.</p>
             </div>
         </div>
@@ -163,7 +163,7 @@ function ParagraphOneSectionTen(){
                and the ergonomic design ensures a comfortable fit for extended listening sessions.
                 Additionally, the Apollo headphones are equipped with touch controls, allowing users to
                  easily control music playback, adjust volume, and even answer calls directly from the headphones.
-                  Whether you're on a jog, in the office, or at home, the Apollo headphones provide the ultimate
+                  Whether you&apos;re on a jog, in the office, or at home, the Apollo headphones provide the ultimate
                    audio experience when paired with the Nebula Nexus X.</p>
         </div>
     )
